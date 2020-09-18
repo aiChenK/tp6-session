@@ -1,0 +1,21 @@
+{
+    "name": "aichenk/tp6-session",
+    "description": "tp6 session依赖注入实现，不使用中间件，更加灵活",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "aiChenK",
+            "email": "aichenk@qq.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "topthink/framework": "^6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "KaySess\\": "src/"
+        }
+    }
+}
